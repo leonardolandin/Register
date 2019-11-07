@@ -8,21 +8,21 @@
     <title>Falcon Heavy</title>
 </head>
 <?php
-require_once "./utilsPHP/database.php"
+require_once "./utilsPHP/login.php";
 ?>
 <body>
     <div class="background">
         <div class="container-form">
-            <form action="" class="form-login">
+            <form action="" class="form-login" method="post">
                 <a href=""><img src="">LOGO DA EMP</a>
                 <h1>Login</h1>
                 <div>
                     <label for="">E-mail:</label>
-                    <input type="text" placeholder="Digite seu e-mail" style="padding-left: 10px;">
+                    <input type="text" placeholder="Digite seu e-mail" style="padding-left: 10px;" name="email">
                 </div>
                 <div>
                     <label for="">Senha:</label>
-                    <input type="password" placeholder="Digite sua senha" style="padding-left: 10px;">
+                    <input type="password" placeholder="Digite sua senha" style="padding-left: 10px;" name="password">
                 </div>
                 <div style="display: flex; flex-direction: row-reverse;">
                     <input type="submit" name="login" id="Entrar" class="login">
