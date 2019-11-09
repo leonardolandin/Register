@@ -14,7 +14,7 @@ if($_POST['login']) {
                     $_SESSION['email'] = $email;
                     $_SESSION['senha'] = $senha;
                     mysqli_close($connect);
-                    header("Location: ../home.php");
+                    header("Location: ../home.html");
                 }
             }
         }
