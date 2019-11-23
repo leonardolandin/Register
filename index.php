@@ -14,7 +14,7 @@ require_once "./utilsPHP/login.php";
     <div class="background">
         <div class="container-form">
             <form action="" class="form-login" method="post">
-                <a href=""><img src="">LOGO DA EMP</a>
+                <img class="logo" src="./img/logo.png">
                 <h1>Login</h1>
                 <div>
                     <label for="">E-mail:</label>
